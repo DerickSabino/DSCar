@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Cliente"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo do Carro"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etServiceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Serviço"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data (DD/MM/AAAA)"
+        android:inputType="date"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (HH:MM)"
+        android:inputType="time"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSubmitBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar Horário" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044224283709",
+    "project_id": "dscar-e2f36",
+    "storage_bucket": "dscar-e2f36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044224283709:android:b52419ae12609476ef4654",
+        "android_client_info": {
+          "package_name": "com.example.dscar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBuJKWq7bEfqg2G7h_z1yo50SBbM9dYNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
